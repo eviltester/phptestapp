@@ -3,7 +3,7 @@ class ResearchRendererD3 {
 
     function echo_scripts(){
         echo <<< EOD
-    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
 EOD;
     }
 
@@ -74,7 +74,7 @@ EOT;
     function echoResearch($research){
         echo <<< EOD
 <script type="text/javascript">
-debugger;
+//debugger;
 //http://bl.ocks.org/d3noob/8323795
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
  width = 960 - margin.right - margin.left,
